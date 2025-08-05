@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CISC 3140 Client and Server Connection Web Application</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="chat-container">
+<div class="header">
+<h1>CISC 3140</h1>
+<p>Client and Server Connection Web Application</p>
+</div>
+
+<ul id="messages"></ul>
+
+<div id="username-modal">
+<div class="modal-content">
+	<h2>Please enter your name!</h2>
+	<input type="text" id="username-input" placeholder="Type your name here">
+	<button id="join-chat">Join Chat</button>
+</div>
+</div>
+
+<form id="form">
+	<div id="current-user-display" title="Click to change your name"></div>
+	<input id="input" autocomplete="off" placeholder="Type your message here" />
+	<button type="submit">Send</button>
+</form>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
