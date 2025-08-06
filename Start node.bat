@@ -1,2 +1,1 @@
-start "" node server/index.js
-start http://localhost:3000
+start "" node server/index.js & start http://localhost:3000
