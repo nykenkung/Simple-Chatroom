@@ -1,1 +1,0 @@
-cd /d server & npm init -y &  npm install express socket.io

@@ -1,0 +1,1 @@
+start "" nodemon server/index.js & start http://localhost:3000
